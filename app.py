@@ -4,7 +4,7 @@ from keras.models import load_model
 import numpy as np
 
 # Load your trained model
-model = load_model(r"D:\mazen FCDS\FCDS\Ai platforms\Project\model_career")
+model = load_model(r"D:\mazen FCDS\FCDS\Ai platforms\Project\model_career.h5")
 
 def main():
     print("Career Assessment")
