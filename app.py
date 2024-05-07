@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 # Load your trained model
-model = load_model(r"D:\mazen FCDS\FCDS\Ai platforms\Project\model_career.h5")
+model = load_model(r"MazenDeebo/Career_Assessment/model_career.h5")
 
 def main():
     print("Career Assessment")
