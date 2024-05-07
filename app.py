@@ -1,3 +1,6 @@
+import sys
+!{sys.executable} -m pip install tensorflow
+
 import streamlit as st
 import os
 from tensorflow.keras.models import load_model
