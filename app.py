@@ -1,9 +1,10 @@
 import streamlit as st
 import os
+from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load your trained model
-model = load_model('model_career.h5')
+model = load_model(r'MazenDeebo/Career_Assessment/model_career.h5')
 
 def main():
     print("Career Assessment")
@@ -115,8 +116,7 @@ def main():
     print(f"Personal Traits: {', '.join(personal_traits)}")
     print(f"Stressed Out: {stressed_out}")
     print(f"Favorite Subjects: {', '.join(favorite_subjects)}")
-    print("Prediction Results:")
-    # Print prediction results...
-
+    print("Prediction Results:"prediction)
+    
 if __name__ == "__main__":
     main()
