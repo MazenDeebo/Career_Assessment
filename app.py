@@ -116,7 +116,8 @@ def main():
     print(f"Personal Traits: {', '.join(personal_traits)}")
     print(f"Stressed Out: {stressed_out}")
     print(f"Favorite Subjects: {', '.join(favorite_subjects)}")
-    print("Prediction Results:"prediction)
+    print(f"Prediction Results:"{prediction})
+
     
 if __name__ == "__main__":
     main()
